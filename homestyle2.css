@@ -1,3 +1,23 @@
+
+
+* {
+    padding: 9;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+nav {
+    background-color: #29293e;
+    height: 105px;
+    width: 100%;
+    padding: 4px;
+   
+    
+    
+    
+}
 .image1 {                      /*logo*/
     object-fit: cover;
     border-radius: 20px;
@@ -8,7 +28,7 @@
 .image1:hover{
     box-shadow: 0px 2px 10px 0 black;
 }
-.image2 {                  /*background image*/
+.image2 {                   /*background image*/
     margin-bottom: 3%;
     
 }
@@ -228,25 +248,6 @@
    
 
 
-* {
-    padding: 9;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    
-}
-nav {
-    background-color: #29293e;
-    height: 105px;
-    width: 100%;
-    padding: 4px;
-   
-    
-    
-    
-}
-
 /*check-button coding for when viewed in phone*/
 
 .checkbtn {
@@ -339,7 +340,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    text-shadow: rgb(255, 255, 255);
+
     opacity: 75%; 
    
 }
@@ -633,7 +634,7 @@ font-weight: normal;
         color: white;
     }
     #check:checked ~ ul {
-        left: 0px;
+        left: -10px;
     }
     
     .background-image{
@@ -644,29 +645,32 @@ font-weight: normal;
         overflow: hidden;
 
     }
+    h1{
+        z-index: -1;
+    }
     /*section2*/
    .image3{
-    margin-left: 1%;
+    margin-left: 11%;
     margin-top: 9%;
    }
    .image4{
     margin-left: 48%;
-    margin-top: -70%;
-    margin-bottom: 17%;
+    margin-top: -60%;
+    margin-bottom: 20%;
    }
    .image5{
-    margin-left: 24%;
-    margin-top: -18%;
+    margin-left: 28%;
+    margin-top: -15%;
    }
 
    .map1{
-    margin-left: 15%;
+    margin-left: 20%;
    }
 
  /*section3*/
    .image6{
-    margin-top: 7%;
-    margin-left: 1%;
+    margin-top: 5%;
+    margin-left: 13%;
    }
    .image7{
     margin-left: 50%;
@@ -674,70 +678,71 @@ font-weight: normal;
     margin-bottom: 17%;
    }
    .image8{
-    margin-left: 25%;
-    margin-top: -17.7%;
+    margin-left: 30%;
+    margin-top: -18%;
    }
    .map2{
-    margin-left: 15%;
+    margin-left: 25%;
    }
    
   /*section4*/  
 
   .image9{
-    margin-top: 5%;
-    margin-left: 1%;
+    margin-top: 5.5%;
+    margin-left: 13%;
   }
   .image10{
-    margin-left: 45%;
-    margin-top: -48%;
+    margin-left: 49%;
+    margin-top: -39.5%;
     margin-bottom: 30%;
   }
   .image11{
-    margin-left: 25%;
-    margin-top: -31%;
+    margin-left: 30%;
+    margin-top: -30.5%;
   }
   .map3{
-    margin-left: 15%;
+    margin-left: 25%;
   }
 
   /*section5*/
    .image12{
-    margin-top: 5%;
-    margin-left: 1%;
+    margin-top: 4%;
+    margin-left: 13%;
    }
    .image13{
-    margin-left: 46%;
-    margin-top: -51%;
+    margin-left: 49%;
+    margin-top: -39.5%;
     margin-bottom: 17%;
    }
 
    .image14{
-   
-    margin-left: 25% ;
-    margin-top: -18%;
+    margin-left: 30% ;
+    margin-top: -17.6%;
    }
    .map4{
-    margin-left: 15%;
+    margin-left: 25%;
    }
 
    /*section6*/
    .image15{
     margin-top: 5%;
-    margin-left: 1%;
+    margin-left: 11%;
    }
    .image16{
     margin-left: 47%;
-    margin-top: -48%;
+    margin-top: -39.5%;
     margin-bottom: 20%;
    }
    .image17{
-    margin-left: 22%;
-    margin-top: -21%;
+    margin-left: 30%;
+    margin-top: -20.5%;
    }
 
    .map5{
-    margin-left: 15%;
+    margin-left: 25%;
    }
+
+   
     
   /*footer*/
     body {
@@ -805,11 +810,9 @@ font-weight: normal;
     
     .background-image{
         width: 100%;
-        z-index: -1;
     }
     .background-image h1{
         overflow: hidden;
-
     }
     /*section2*/
    .image3{
@@ -905,17 +908,20 @@ font-weight: normal;
    .map5{
     margin-left: 15%;
    }
+   .table1{
+    width: 80%;
+   }
     
   /*footer*/
     body {
         overflow-x: hidden;
     }
     footer {
-        position: relative!important;
-        bottom: unset!important;
-        max-width: calc(100% + 60px)!important;
-        margin-left: -30px!important;
-        padding: 30px!important;
+        position: relative;
+        bottom: unset;
+        max-width: calc(100% + 60px);
+        margin-left: -30px;
+        padding: 30px;
     }
    .footer-left,.footer-center,.footer-right {
        display: block;
@@ -937,8 +943,7 @@ font-weight: normal;
     }
     nav{
         width: 100%;
-    }
-    
+    } 
 
 }
 
